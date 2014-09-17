@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x404040ff?>
+
+<AnchorPane id="AnchorPane" prefHeight="770.4998779296875" prefWidth="706.0" styleClass="darkList" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="connect4.Connect4Controller">
+  <children>
+    <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="189.0" spacing="5.0">
+      <children>
+        <HBox id="HBox" alignment="CENTER" prefHeight="523.0" spacing="5.0" styleClass="theme">
+          <children>
+            <Pane prefHeight="500.0" prefWidth="645.0">
+              <children>
+                <HBox id="HBox" alignment="CENTER" layoutX="9.0" layoutY="14.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col0Row5" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="100.0" layoutY="14.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col1Row5" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="191.0" layoutY="14.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col2Row5" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="282.0" layoutY="14.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col3Row5" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="373.0" layoutY="14.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col4Row5" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="464.0" layoutY="14.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col5Row5" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="554.0" layoutY="14.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col6Row5" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="9.0" layoutY="96.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col0Row4" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="100.0" layoutY="96.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col1Row4" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="191.0" layoutY="96.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col2Row4" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="282.0" layoutY="96.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col3Row4" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="373.0" layoutY="96.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col4Row4" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="464.0" layoutY="96.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col5Row4" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="554.0" layoutY="96.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col6Row4" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="9.0" layoutY="178.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col0Row3" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="100.0" layoutY="178.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col1Row3" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="191.0" layoutY="178.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col2Row3" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="282.0" layoutY="178.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col3Row3" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="373.0" layoutY="178.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col4Row3" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="464.0" layoutY="178.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col5Row3" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="554.0" layoutY="178.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col6Row3" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="9.0" layoutY="260.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col0Row2" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="100.0" layoutY="260.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col1Row2" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="191.0" layoutY="260.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col2Row2" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="282.0" layoutY="260.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col3Row2" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="373.0" layoutY="260.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col4Row2" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="464.0" layoutY="260.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col5Row2" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="554.0" layoutY="260.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col6Row2" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="9.0" layoutY="342.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col0Row1" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="100.0" layoutY="342.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col1Row1" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="191.0" layoutY="342.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col2Row1" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="282.0" layoutY="342.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col3Row1" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="373.0" layoutY="342.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col4Row1" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="464.0" layoutY="342.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col5Row1" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="554.0" layoutY="342.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col6Row1" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="9.0" layoutY="424.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle id="col0row0" fx:id="col0Row0" fill="WHITE" radius="34.0" smooth="true" stroke="BLACK" strokeType="INSIDE" strokeWidth="1.0" visible="true" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="100.0" layoutY="424.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col1Row0" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="191.0" layoutY="424.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col2Row0" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="282.0" layoutY="424.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col3Row0" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="373.0" layoutY="424.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col4Row0" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="464.0" layoutY="424.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col5Row0" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <HBox id="HBox" alignment="CENTER" layoutX="554.0" layoutY="424.0" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+                  <children>
+                    <Circle fx:id="col6Row0" fill="WHITE" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+                  </children>
+                </HBox>
+                <Text fx:id="humanWins" fill="BLACK" layoutX="223.0" layoutY="342.0" scaleX="2.9345968203244417" scaleY="8.842518346693936" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations --- You Win!!!" textAlignment="CENTER" visible="false" />
+                <Text id="humanWins" fx:id="computerWins" fill="BLACK" layoutX="239.0" layoutY="352.0" scaleX="3.0815288623431676" scaleY="8.842518346693936" strokeType="OUTSIDE" strokeWidth="0.0" text="Computer wins!!!" textAlignment="CENTER" underline="true" visible="false" />
+                <Text id="humanWins" fx:id="draw" fill="BLACK" layoutX="265.0" layoutY="362.0" scaleX="3.487786034795047" scaleY="8.842518346693936" strokeType="OUTSIDE" strokeWidth="0.0" text="It is a draw!!!" textAlignment="CENTER" underline="true" visible="false" />
+              </children>
+            </Pane>
+          </children>
+          <effect>
+            <InnerShadow color="#202020" />
+          </effect>
+          <HBox.margin>
+            <Insets left="28.0" />
+          </HBox.margin>
+        </HBox>
+      </children>
+    </HBox>
+    <HBox id="HBox" alignment="CENTER" layoutX="25.0" layoutY="89.0" prefWidth="645.0" spacing="5.0">
+      <children>
+        <HBox id="HBox" alignment="CENTER" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+          <children>
+            <Button id="label" fx:id="button1" mnemonicParsing="false" onAction="#handleButton1Action" prefHeight="45.0" prefWidth="44.999900000002526" text="1" wrapText="false" />
+          </children>
+          <HBox.margin>
+            <Insets left="5.0" />
+          </HBox.margin>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+          <children>
+            <Button fx:id="button2" mnemonicParsing="false" onAction="#handleButton2Action" prefHeight="45.0" prefWidth="45.0" text="2" />
+          </children>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+          <children>
+            <Button fx:id="button3" mnemonicParsing="false" onAction="#handleButton3Action" prefHeight="45.0" prefWidth="45.0" text="3" />
+          </children>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+          <children>
+            <Button fx:id="button4" mnemonicParsing="false" onAction="#handleButton4Action" prefHeight="45.0" prefWidth="45.0" text="4" />
+          </children>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+          <children>
+            <Button fx:id="button5" mnemonicParsing="false" onAction="#handleButton5Action" prefHeight="45.0" prefWidth="45.0" text="5" />
+          </children>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+          <children>
+            <Button fx:id="button6" mnemonicParsing="false" onAction="#handleButton6Action" prefHeight="45.0" prefWidth="45.0" text="6" />
+          </children>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" prefHeight="96.0" prefWidth="91.0" spacing="5.0">
+          <children>
+            <Button fx:id="button7" mnemonicParsing="false" onAction="#handleButton7Action" prefHeight="45.0" prefWidth="45.0" text="7" />
+          </children>
+        </HBox>
+      </children>
+    </HBox>
+    <Separator layoutX="0.0" layoutY="73.0" minHeight="2.0" prefHeight="2.0" prefWidth="645.0" />
+    <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="75.0" prefWidth="645.0" spacing="5.0">
+      <children>
+        <ImageView id="connect4Logo" fitHeight="89.0" fitWidth="705.0001220703125" pickOnBounds="true">
+          <image>
+            <Image url="@connect4Logo.jpeg" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+      </children>
+    </HBox>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7266ff" height="60.0" layoutX="628.0" layoutY="712.0" stroke="BLACK" strokeType="INSIDE" width="45.0">
+      <effect>
+        <InnerShadow>
+          <color>
+            <Color blue="0.000" green="0.000" opacity="0.500" red="0.000" fx:id="x1" />
+          </color>
+        </InnerShadow>
+      </effect>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7266ff" height="60.0" layoutX="28.0" layoutY="712.0" stroke="BLACK" strokeType="INSIDE" width="45.0">
+      <effect>
+        <InnerShadow color="$x1" />
+      </effect>
+    </Rectangle>
+  </children>
+  <stylesheets>
+    <URL value="@Connect4.css" />
+  </stylesheets>
+</AnchorPane>

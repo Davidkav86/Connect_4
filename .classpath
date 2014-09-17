@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run106304540/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run1362397148/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run153523427/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run1591988574/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run1605055359/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run1685030993/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run192159793/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run1923304303/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run1981779734/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run2051843468/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run477648336/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run61292162/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run653990162/Connect4.jar"/>
+	<classpathentry kind="lib" path="dist/run754778761/Connect4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
